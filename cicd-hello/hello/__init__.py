@@ -3,6 +3,7 @@ buzz = ('continuous testing', 'continuous integration','continuous deployment', 
 adjectives = ('complete', 'modern', 'self-service', 'integrated', 'end-to-end')
 adverbs = ('remarkably', 'enormously', 'substantially', 'significantly','seriously')
 verbs = ('accelerates', 'improves', 'enhances', 'revamps', 'boosts')
+
 def sample(l, n = 1):
 	result = random.sample(l, n)
 	if n == 1:
